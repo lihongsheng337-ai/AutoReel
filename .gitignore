@@ -1,0 +1,50 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Node / TypeScript ----
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+.npm/
+.pnpm-store/
+
+# ---- Java / Maven / Gradle ----
+target/
+out/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+.gradle/
+build/
+
+# ---- IDE / OS ----
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Env / secrets ----
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+
+# ---- 生成产物（体积大，不入库）----
+# 保留小型示例与 showcase，忽略大批量中间素材
+artifacts/
+runs/
+*.tmp
+output/
+log/
+*.log
